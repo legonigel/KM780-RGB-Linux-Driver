@@ -1,8 +1,26 @@
+# Build files
+bin/*
+!bin/README.md
+
+# QT Creator Autosaves
+*.autosave
+
+# QtCreatoro project files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# QMake makefile
+
+Makefile*
+
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+!.obj/
 
 # Precompiled Headers
 *.gch

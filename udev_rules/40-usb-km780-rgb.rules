@@ -1,0 +1,7 @@
+# These rules watch for usb devices matching the KM780 RGB keyboard.
+# and sets their permission so that all users can read and
+# write to the device. The node is found under
+# /dev/bus/usb/xxx/yyy
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="28da", ATTR{idProduct}=="1101", MODE="0666"
+
